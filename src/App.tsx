@@ -13,15 +13,8 @@ function App() {
   const [peer, setPeer] = useState("");
   const [msg, setMsg] = useState("");
   return (
-    <div>
-      <div
-        style={{
-          display: "flex",
-          gap: "5px",
-          flexDirection: "column",
-          marginBottom: "10px",
-        }}
-      >
+    <div className="p-4">
+      <div className="flex flex-col gap-2 mb-2">
         <a href="https://github.com/AyushBobale/tunnel-tester" target="_blank">
           Visit Project
         </a>
