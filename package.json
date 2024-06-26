@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ayushbobale/tunnel-react": "^1.0.1",
+    "@ayushbobale/tunnel-react": "^1.1.0",
+    "clsx": "^2.1.1",
+    "merge": "^2.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "tailwind": "^4.0.0",
     "vite-plugin-commonjs": "^0.10.1"
   },
   "devDependencies": {
