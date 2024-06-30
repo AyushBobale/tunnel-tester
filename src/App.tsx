@@ -142,6 +142,9 @@ function App() {
         <video className="border" ref={remoteVideoRef} autoPlay />
       </div> */}
       <pre className="px-2 py-1 border">
+        {JSON.stringify(tunnelIO.fileShareProgress, null, "\t")}
+      </pre>
+      <pre className="px-2 py-1 border">
         {JSON.stringify(tunnelIO.tunnelState, null, "\t")}
       </pre>
     </div>
